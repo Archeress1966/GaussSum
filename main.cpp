@@ -10,13 +10,15 @@
 
 using namespace std;
 
-#define LIMIT 100
+
 int main(int argc, char** argv) {
-            
+      cout  << "Please enter n: ";
+      int n;
+      cin >> n;      
       int sum = 0;
-      for (int i=1; i<=LIMIT; i++){
+      for (int i=1; i<=n; i++){
           sum += i;
       }
-      cout << "1 + 2 + 3 + .... + " << LIMIT;     
+      cout << "1 + 2 + 3 + .... + " << n << " " << sum << endl;;     
 }//main
 
